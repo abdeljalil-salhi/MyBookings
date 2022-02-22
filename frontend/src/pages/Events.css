@@ -1,0 +1,28 @@
+.events-control {
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  padding: 3rem 2rem 4rem 2rem;
+  margin: 20px auto 0 auto;
+  width: 30rem;
+  max-width: 80%;
+  background: rgb(43, 43, 43);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.events-create {
+  background: orange;
+  color: white;
+  font: inherit;
+  border: none;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 0.25rem 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.events-create:hover {
+  background: rgb(255, 120, 0);
+}

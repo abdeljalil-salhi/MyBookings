@@ -1,0 +1,47 @@
+.event__list-item {
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  margin: 20px auto 0 auto;
+  width: 30rem;
+  max-width: 80%;
+  background: rgb(43, 43, 43);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.event__list-item div:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.event__list-item-title {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.event__list-item-price {
+  margin: 0;
+  font-size: 1rem;
+  color: #7c7c7c;
+}
+
+.event__list-item div button {
+  color: orange;
+  padding: 0.25rem 0.5rem;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  font-size: 16px;
+  margin: 0;
+  transition: 0.3s ease;
+}
+.event__list-item div button:hover {
+  color: rgb(255, 100, 0);
+}
